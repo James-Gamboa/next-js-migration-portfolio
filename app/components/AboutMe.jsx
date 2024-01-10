@@ -1,6 +1,5 @@
 // @ts-nocheck
 import Image from 'next/image';
-import HelloImg from '../../public/img/profile-icons/me.png';
 import '../../public/css/styles.css';
 
 const AboutMe = () => {
@@ -12,7 +11,7 @@ const AboutMe = () => {
           <h1 className="title">¡Hola!</h1>
           <div className="grid-container">
             <Image
-              src={HelloImg}
+              src="../../public/img/profile-icons/me.png"
               alt="Foto-de-perfil-icono"
               width={300} 
               height={200}

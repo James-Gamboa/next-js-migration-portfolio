@@ -1,17 +1,5 @@
 // @ts-nocheck
 import Image from 'next/image';
-import HTMLImg from "../../public/img/icons-language/html.png";
-import CssImg from "../../public/img/icons-language/css.png";
-import JsImg from "../../public/img/icons-language/javascript.png";
-import MongoImg from "../../public/img/icons-language/mongo.png";
-import GitImg from "../../public/img/icons-language/git.png";
-import SqlImg from "../../public/img/icons-language/sql-server.png";
-import ReactImg from "../../public/img/icons-language/react.png";
-import NextJsImg from "../../public/img/icons-language/next-js.png";
-import NodeJsImg from "../../public/img/icons-language/node-js.jpeg";
-import DrupalImg from "../../public/img/icons-language/drupal.png";
-import SassImg from "../../public/img/icons-language/sass.png";
-import ShopifyImg from "../../public/img/icons-language/shopify.png";
 
 const Skills = () => {
     return(
@@ -26,18 +14,18 @@ const Skills = () => {
                 </div>
             </div>
             <div className="SkillsGrid">
-                <Image src={HTMLImg} />
-                <Image src={CssImg} />
-                <Image src={JsImg} />
-                <Image src={MongoImg} />
-                <Image src={GitImg} />
-                <Image src={SqlImg} />
-                <Image src={ReactImg} />
-                <Image src={NextJsImg}/>
-                <Image src={NodeJsImg}/>
-                <Image src={DrupalImg}/>
-                <Image src={SassImg}/>
-                <Image src={ShopifyImg}/>
+                <Image src="../../public/img/icons-language/html.png" />
+                <Image src="../../public/img/icons-language/css.png" />
+                <Image src="../../public/img/icons-language/javascript.png" />
+                <Image src="../../public/img/icons-language/mongo.png" />
+                <Image src="../../public/img/icons-language/git.png" />
+                <Image src="../../public/img/icons-language/sql-server.png" />
+                <Image src="../../public/img/icons-language/react.png" />
+                <Image src="../../public/img/icons-language/next-js.png"/>
+                <Image src="../../public/img/icons-language/node-js.jpeg"/>
+                <Image src="../../public/img/icons-language/drupal.png"/>
+                <Image src="../../public/img/icons-language/sass.png"/>
+                <Image src="../../public/img/icons-language/shopify.png"/>
             </div>
         </section>
         </>

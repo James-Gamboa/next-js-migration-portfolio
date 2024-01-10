@@ -1,6 +1,5 @@
 // @ts-nocheck
 import Image from 'next/image';
-import MeImg from "../../public/img/profile-icons/icon-profile.jpg";
 import "../../public/css/styles.css";
 
 const Iam = () => {
@@ -10,7 +9,7 @@ const Iam = () => {
         <div className="main-container">
             <h1 className="title">Yo Soy</h1>
             <div className="flex-container-2">
-                <Image src={MeImg} alt="Mi foto"/>
+                <Image src="../../public/img/profile-icons/icon-profile.jpg" alt="Mi foto"/>
                 <ul>
                     <li>James Guevara Gamboa</li>
                     <li>Soy de Costa Rica - Heredia </li>

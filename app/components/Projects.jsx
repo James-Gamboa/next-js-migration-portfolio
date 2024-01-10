@@ -1,5 +1,4 @@
 // @ts-nocheck
-
 import ProjectCard from "./ProjectCard"
 import "../../public/css/styles.css";
 

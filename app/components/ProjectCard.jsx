@@ -28,7 +28,7 @@ ProjectCard.prototype = {
 ProjectCard.defaultProps = {
     id: "#",
     title: "No hay titulo",
-    image: "/src/img/projects/no-image.png",
+    image: "../../public/img/projects/no-image.png",
     description: "No hay Descripción-----",
     link: "#"
 }

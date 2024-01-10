@@ -1,6 +1,5 @@
 // @ts-nocheck
 import Image from 'next/image';
-import EducationImg from "../../public/img/icons/grafico-de-barras.png";
 import "../../public/css/styles.css";
 
 const Education = () => {
@@ -10,7 +9,7 @@ const Education = () => {
             <div className="main-container">
                 <h1 className="title">Educación</h1>
                 <div className="flex-container-2">
-                <Image className="empty-2" src={EducationImg} alt="Gráfico-de-barras"width={300} height={200}/>
+                <Image className="empty-2" src="../../public/img/icons/grafico-de-barras.png" alt="Gráfico-de-barras"width={300} height={200}/>
                         <ul>
                             <li><strong>He invertido tiempo y dedicación en participar en diversos cursos en línea </strong> 
                             y programas de formación para adquirir un sólido conjunto de habilidades técnicas en el campo del desarrollo de Front End. Algunos de los cursos que he completado son:</li>

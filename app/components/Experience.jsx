@@ -1,6 +1,5 @@
 // @ts-nocheck
 import Image from 'next/image';
-import ExperienceImg from "../../public/img/icons/oficina.png";
 import "../../public/css/styles.css";
 
 const Experience = () => {
@@ -10,7 +9,7 @@ const Experience = () => {
         <div className="main-container">
           <h1 className="title">Experiencia</h1>
           <div className="flex-container-2">
-            <Image className="empty" src={ExperienceImg} alt="Mi foto" />
+            <Image className="empty" src="../../public/img/icons/oficina.png" alt="Mi foto" />
             <ul className="letter-small">
               <li>
                 <strong>
