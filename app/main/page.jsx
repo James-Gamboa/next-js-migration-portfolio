@@ -1,12 +1,10 @@
 // @ts-nocheck
-
-import ReactDOM from "react-dom/client"
-import { createBrowserRouter, RouterProvider,} from "react-router-dom";
-import HomePage from "./HomePage"
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import HomePage from "./HomePage";
 import ExperiencePage from "./ExperiencePage";
-import ProjectsPage from "./ProjectsPage"
-import SkillsPage from "./SkillsPage"
-import RenderPage from "./RenderPage"
+import ProjectsPage from "./ProjectsPage";
+import SkillsPage from "./SkillsPage";
+import RenderPage from "./RenderPage";
 
 const router = createBrowserRouter([
   {
@@ -31,8 +29,7 @@ const router = createBrowserRouter([
   },
 ]);
 
-ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
+
+<React.StrictMode>
   <RouterProvider router={router} />
-  </React.StrictMode>,
-)
+</React.StrictMode>

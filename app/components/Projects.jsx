@@ -2,7 +2,6 @@
 import ProjectCard from "./ProjectCard"
 import "../../public/css/styles.css";
 
-// Importacion de Imagenes
 import P1Img from "../../public/img/projects/cocacola-page.png";
 import P2Img from "../../public/img/projects/pokedex-page.png";
 import P3Img from "../../public/img/projects/testomonios-freecodecamp.png";
