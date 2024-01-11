@@ -14,18 +14,18 @@ const Skills = () => {
                 </div>
             </div>
             <div className="SkillsGrid">
-                <Image src="../../public/img/icons-language/html.png" />
-                <Image src="../../public/img/icons-language/css.png" />
-                <Image src="../../public/img/icons-language/javascript.png" />
-                <Image src="../../public/img/icons-language/mongo.png" />
-                <Image src="../../public/img/icons-language/git.png" />
-                <Image src="../../public/img/icons-language/sql-server.png" />
-                <Image src="../../public/img/icons-language/react.png" />
-                <Image src="../../public/img/icons-language/next-js.png"/>
-                <Image src="../../public/img/icons-language/node-js.jpeg"/>
-                <Image src="../../public/img/icons-language/drupal.png"/>
-                <Image src="../../public/img/icons-language/sass.png"/>
-                <Image src="../../public/img/icons-language/shopify.png"/>
+                <Image  width={300} height={200} src="/img/icons-language/html.png" />
+                <Image  width={300} height={200} src="/img/icons-language/css.png" />
+                <Image  width={300} height={200} src="/img/icons-language/javascript.png" />
+                <Image  width={300} height={200} src="/img/icons-language/mongo.png" />
+                <Image  width={300} height={200} src="/img/icons-language/git.png" />
+                <Image  width={300} height={200} src="/img/icons-language/sql-server.png" />
+                <Image  width={300} height={200} src="/img/icons-language/react.png" />
+                <Image  width={300} height={200} src="/img/icons-language/next-js.png"/>
+                <Image  width={300} height={200} src="/img/icons-language/node-js.jpeg"/>
+                <Image  width={300} height={200} src="/img/icons-language/drupal.png"/>
+                <Image  width={300} height={200} src="/img/icons-language/sass.png"/>
+                <Image  width={300} height={200} src="/img/icons-language/shopify.png"/>
             </div>
         </section>
         </>

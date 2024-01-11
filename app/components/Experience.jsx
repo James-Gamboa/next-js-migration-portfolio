@@ -9,7 +9,8 @@ const Experience = () => {
         <div className="main-container">
           <h1 className="title">Experiencia</h1>
           <div className="flex-container-2">
-            <Image className="empty" src="../../public/img/icons/oficina.png" alt="Mi foto" />
+            <Image className="empty" src="/img/icons/oficina.png"  width={300} 
+              height={200} alt="Mi foto" />
             <ul className="letter-small">
               <li>
                 <strong>

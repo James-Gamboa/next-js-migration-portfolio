@@ -10,7 +10,7 @@ const MainBanner = () => {
                 <p>Hola, soy <strong>James Guevara Gamboa.</strong><br/> Desarrollador Frontend, ¡Bienvenid@!</p>
             </div>
             <div className="main-section-img">
-                <Image src="../../public/img/profile-icons/photo-profile.jpeg" alt="Foto de Perfil" />
+                <Image src="/img/profile-icons/photo-profile.jpeg" alt="Foto de Perfil" />
             </div>
         </section>
         </>    

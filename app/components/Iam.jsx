@@ -9,7 +9,7 @@ const Iam = () => {
         <div className="main-container">
             <h1 className="title">Yo Soy</h1>
             <div className="flex-container-2">
-                <Image src="../../public/img/profile-icons/icon-profile.jpg" alt="Mi foto"/>
+                <Image src="/img/profile-icons/icon-profile.jpg"  width={300} height={200} alt="Mi foto"/>
                 <ul>
                     <li>James Guevara Gamboa</li>
                     <li>Soy de Costa Rica - Heredia </li>
