@@ -8,12 +8,12 @@ import MainFooter from "./components/Footer"
 const HomePage = () => {
     return(
         <>
-        <Header />
+        {/* <Header /> */}
         <MainBanner/>
         <AboutMe/>
         <Iam/>
         <MoreMe/>
-        <MainFooter/> 
+        {/* <MainFooter/>  */}
         </>
     )
 }

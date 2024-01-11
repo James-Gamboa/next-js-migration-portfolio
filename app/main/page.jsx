@@ -1,12 +1,10 @@
-// @ts-nocheck
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import HomePage from "./HomePage";
-import ExperiencePage from "./ExperiencePage";
-import ProjectsPage from "./ProjectsPage";
-import SkillsPage from "./SkillsPage";
-import RenderPage from "./RenderPage";
+import HomePage from "../page";
+import ExperiencePage from "../ExperiencePage/page";
+import ProjectsPage from "../ProjectsPage/page";
+import SkillsPage from "../SkillsPage/page";
+import RenderPage from "../RenderPage/page";
 
-const router = createBrowserRouter([
+const router = [
   {
     path: "/",
     element: <HomePage />,
@@ -27,9 +25,6 @@ const router = createBrowserRouter([
     path: "/RenderPage",
     element: <RenderPage />,
   },
-]);
+];
 
-
-<React.StrictMode>
-  <RouterProvider router={router} />
-</React.StrictMode>
+export default router;
