@@ -11,9 +11,9 @@ const AboutMe = () => {
           <h1 className="title">¡Hola!</h1>
           <div className="grid-container">
             <Image
-              src="/img/profile-icons/me.png"
-              alt="Foto-de-perfil-icono"
-              width={300} 
+              src="/img/profile-icons/user-with-computer.jpg"
+              alt="User With a Computer"
+              width={260} 
               height={200}
             />
             <p>

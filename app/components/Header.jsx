@@ -8,7 +8,7 @@ function Header() {
         <>
         <header className="main-header">
             <div className="main-logo">
-                <a href="/"><Image src="/img/icons/home_icon.png" width={300} height={200} alt="Logo" /></a>
+                <a href="/"><Image src="/img/icons/home-icon.png" width={300} height={200} alt="Home Logo" /></a>
             </div>
             <div className="main-menu-toggle"  onClick={() => document.getElementById("main-nav").classList.toggle("show")}></div>
             <MainMenu />            

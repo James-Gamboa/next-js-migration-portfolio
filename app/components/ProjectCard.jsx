@@ -6,7 +6,7 @@ function ProjectCard({id,title,image,description,link}) {
     return (
         <>
             <div className="project-card">
-                <Image src={image} alt="Card-Imagen"   width={300} height={200} className="card-banner" />
+                <Image src={image} alt="Card-Imagen" width={600} height={250} className="card-banner" />
                 <div className="card-content">
                     <h3 className="title">{title}</h3>
                     <p className="description">{description}</p>
