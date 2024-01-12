@@ -1,14 +1,13 @@
-
-// import Header from "./components/Header"
+import Header from "../components/Header"
 import Skills from "../components/Skills"
-// import MainFooter from "./components/Footer"
+import MainFooter from "../components/Footer"
 
 const SkillsPage = () => {
     return(
         <>
-        {/* <Header /> */}
+        <Header />
         <Skills/>
-        {/* <MainFooter/>  */}
+        <MainFooter/> 
         </>
     )
 }

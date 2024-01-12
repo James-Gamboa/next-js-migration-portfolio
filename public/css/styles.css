@@ -78,6 +78,11 @@ h3 {
   }
 }
 
+.fi.fi-sr-envelope a {
+  text-decoration: none;
+  color: white;
+}
+
 .title {
   display: flex;
   padding-top: 1rem;

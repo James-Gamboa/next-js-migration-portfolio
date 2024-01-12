@@ -4,7 +4,7 @@ const MainFooter = () => {
     return (
         <>
         <footer className="main-footer">
-            <span className="fi fi-sr-envelope" onClick={() => window.location.href = "mailto:jjguevarag@gmail.com"}> jjguevarag@gmail.com</span>
+        <span className="fi fi-sr-envelope"><a href="mailto:jjguevarag@gmail.com">jjguevarag@gmail.com</a></span>
             <p>Contacto: </p>
             <div className="social-networks">
                 <a href="https://www.linkedin.com/in/james-guevara-gamboa/" target="_blank"><i className="fi fi-brands-linkedin"></i></a>
