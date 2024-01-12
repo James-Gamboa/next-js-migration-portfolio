@@ -1,5 +1,5 @@
 // @ts-nocheck
-import Image from 'next/image';
+import Image from "next/image";
 import "../../public/css/styles.css";
 
 const MainBanner = () => {

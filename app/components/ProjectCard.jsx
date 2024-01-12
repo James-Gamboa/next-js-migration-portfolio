@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from "next/image";
 import PropTypes from "prop-types"
 import "../../public/css/styles.css";
 
