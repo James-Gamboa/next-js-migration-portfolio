@@ -1,8 +1,8 @@
 import Image from "next/image";
-import PropTypes from "prop-types"
+import PropTypes from "prop-types";
 import "../../public/css/styles.css";
 
-function ProjectCard({id,title,image,description,link}) {
+function ProjectCard({ id, title, image, description, link }) {
     return (
         <>
             <div className="project-card">
@@ -10,27 +10,29 @@ function ProjectCard({id,title,image,description,link}) {
                 <div className="card-content">
                     <h3 className="title">{title}</h3>
                     <p className="description">{description}</p>
-                    <a href={link} target="_blank" className="button">Ir al Proyecto "{title}"</a>
+                    <a href={link} target="_blank" rel="noopener noreferrer" className="button">
+                        Ir al Proyecto &ldquo;{title}&rdquo;
+                    </a>
                 </div>
             </div>
         </>
-    )
+    );
 }
 
-ProjectCard.prototype = {
-    id: PropTypes.number,
+ProjectCard.propTypes = {
+    id: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
     title: PropTypes.string,
     image: PropTypes.string,
     description: PropTypes.string,
-    link: PropTypes.string
-}
+    link: PropTypes.string,
+};
 
 ProjectCard.defaultProps = {
     id: "#",
     title: "No hay titulo",
     image: "/img/projects/no-image.png",
     description: "No hay Descripción-----",
-    link: "#"
-}
+    link: "#",
+};
 
-export default ProjectCard
+export default ProjectCard;

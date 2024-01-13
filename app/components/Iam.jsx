@@ -8,7 +8,7 @@ const Iam = () => {
         <div className="main-container">
             <h1 className="title">Yo Soy</h1>
             <div className="flex-container-2">
-                <Image src="/img/profile-icons/programmer-working-computer.png"  width={0} height={300} alt="Programmer working on a computer"/>
+                <Image src="/img/profile-icons/programmer-working-computer.png"  width={25} height={500} alt="Programmer working on a computer"/>
                 <ul>
                     <li>James Guevara Gamboa</li>
                     <li>Soy de Costa Rica - Heredia </li>
