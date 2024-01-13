@@ -44,7 +44,7 @@ h3 {
 }
 
 :root {
-  --primary: #f44459;
+  --primary: #e52f45;
   --button-color: rgb(255, 255, 255);
   --letter-color: #53575a;
   --bg-color: #fafdff;
@@ -76,11 +76,6 @@ h3 {
     --bg-color2: #23272e;
     --bg-color: #1f2937;
   }
-}
-
-.fi.fi-sr-envelope a {
-  text-decoration: none;
-  color: white;
 }
 
 .title {
@@ -477,6 +472,32 @@ h3 {
   }
 }
 
+.main-footer .fi-sr-envelope {
+  text-decoration: none;
+  color: white;
+  margin-right: 0.5rem;
+}
+
+.main-footer .fi-sr-envelope a {
+  text-decoration: none;
+  color: white;
+}
+
+.main-footer .fi-sr-envelope i {
+  font-size: 1.3em;
+  margin-right: 0.5rem;
+  transition: font-size 0.3s;
+}
+
+.main-footer .fi-sr-envelope i:hover {
+  font-size: 2em;
+}
+
+.main-footer .fi-sr-envelope .email-text {
+  color: white;
+  margin-left: 0.5rem;
+}
+
 .main-footer {
   overflow: hidden;
   width: 100%;
@@ -488,22 +509,33 @@ h3 {
   justify-content: center;
   align-items: center;
 }
+
 .main-footer i {
   font-size: 1.3em;
   margin-right: 1.2rem;
   color: white;
   transition: font-size 0.3s;
 }
+
 .main-footer i:hover {
   font-size: 2em;
 }
+
 .main-footer p,
 .main-footer span {
   padding-right: 1rem;
 }
+
 .main-footer p {
   display: none;
 }
+
+.main-footer a {
+  text-decoration: none;
+  color: white;
+  margin-left: 0.5rem;
+}
+
 @media screen and (min-width: 960px) {
   .main-footer p {
     display: flex;
