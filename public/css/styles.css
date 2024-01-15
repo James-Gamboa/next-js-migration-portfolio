@@ -536,6 +536,25 @@ h3 {
   margin-left: 0.5rem;
 }
 
+.not-found-text {
+  text-align: center;
+}
+
+.back-to-home-button {
+  background-color: var(--primary);
+  color: var(--button-color);
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.back-to-home-button:hover {
+  background-color: #2ecc71;
+  color: var(--letter-color);
+}
+
 @media screen and (min-width: 960px) {
   .main-footer p {
     display: flex;

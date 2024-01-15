@@ -6,17 +6,17 @@ const Experience = () => {
     <>
       <section className="i-am">
         <div className="main-container">
-          <h1 className="title">Experiencia</h1>
+          <h1 className="title">Experience</h1>
           <div className="flex-container-2">
             <Image className="empty" src="/img/icons/office.png"  width={384} 
               height={384} alt="Office Icon With User" />
             <ul className="letter-small">
               <li>
                 <strong>
-                  Aunque no tengo experiencia laboral formal en el campo del
-                  desarrollo Front-End, he estado buscando constantemente
-                  oportunidades para aplicar los conocimientos y habilidades
-                  adquiridos a través de cursos y proyectos personales.
+                  Although I do not have formal work experience in the field of Front-End
+                  Front-End development, I have been constantly looking for opportunities to
+                  opportunities to apply the knowledge and skills acquired through
+                  acquired through courses and personal projects.
                 </strong>
               </li>
               <hr />

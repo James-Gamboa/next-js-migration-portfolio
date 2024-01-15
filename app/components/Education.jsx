@@ -6,23 +6,23 @@ const Education = () => {
         <>
         <section className="i-am">
             <div className="main-container">
-                <h1 className="title">Educación</h1>
+                <h1 className="title">Education</h1>
                 <div className="flex-container-2">
                     <Image className="empty-2" src="/img/icons/bar-graphic.png" alt="Bar Graphic" width={384} height={384} />
                     <ul>
-                        <li><strong>He invertido tiempo y dedicación en participar en diversos cursos en línea </strong>
-                            y programas de formación para adquirir un sólido conjunto de habilidades técnicas en el campo del desarrollo de Front End. Algunos de los cursos que he completado son:</li>
+                        <li><strong>I have invested time and dedication in participating in several online courses</strong>
+                            and training programs to acquire a solid set of technical skills in the field of Front End development. Some of the courses I have completed are:</li>
                         <br></br>
-                        <li><strong>&ldquo;JavaScript Algorithms and Data Structures&rdquo; en freeCodeCamp : </strong>
-                            Este curso me ha proporcionado una comprensión profunda de los algoritmos y estructuras de datos fundamentales, lo cual es crucial para el desarrollo eficiente y escalable de aplicaciones web.</li>
+                        <li><strong>&ldquo;Web design and development technician&rdquo; in Cetav: </strong>
+                        Through my technical background, I have acquired solid skills in web design and programming. I have explored various programming languages, content management systems and workflows, developing competencies in web design and programming with a focus on functionality, accessibility and usability based on web standards.</li>
                         <br></br>
-                        <li><strong>&ldquo;Responsive Web Design&rdquo; en freeCodeCamp : </strong>
-                            Durante este curso, adquirí conocimientos sobre los principios y las mejores prácticas del diseño web adaptable,
-                            permitiéndome crear interfaces de usuario que se adaptan
-                            a diferentes dispositivos y tamaños de pantalla.</li>
+                        <li><strong>&ldquo;JavaScript Algorithms and Data Structures&rdquo; in freeCodeCamp : </strong>
+                            This course has provided me with a deep understanding of fundamental algorithms and data structures, which is crucial for efficient and scalable web application development.</li>
                         <br></br>
-                        <li><strong>&ldquo;Desarrollo Web Frontend HTML y CSS&rdquo; en Udemy : </strong>
-                            A través de este curso, he aprendido técnicas avanzadas de maquetación y diseño web utilizando HTML y CSS. He adquirido habilidades en la creación de diseños atractivos y responsivos.</li>
+                        <li><strong>&ldquo;Responsive Web Design&rdquo; in freeCodeCamp : </strong>
+                            During this course, I gained knowledge about the principles and best practices of responsive web design,
+                            enabling me to create user interfaces that adapt to different devices
+                            different devices and screen sizes.</li>
                         <br></br>
                     </ul>
                 </div>

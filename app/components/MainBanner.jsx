@@ -6,7 +6,7 @@ const MainBanner = () => {
         <>
         <section className="main-section-banner">
             <div className="main-section-content">
-                <p>Hola, soy <strong>James Guevara Gamboa.</strong><br/> Desarrollador Frontend, ¡Bienvenid@!</p>
+                <p>Hello, I am <strong>James Guevara Gamboa.</strong><br/> Frontend Developer, Welcome!</p>
             </div>
             <div className="main-section-img">
                 <Image src="/img/profile-icons/photo-profile.jpeg" width={300} height={375} alt="Profile Picture" />

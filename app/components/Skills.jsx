@@ -5,11 +5,9 @@ const Skills = () => {
         <>
             <section className="i-am">
                 <div className="main-container">
-                    <h1 className="title">Habilidades Tecnicas</h1>
+                    <h1 className="title">Technical Skills</h1>
                     <div className="flex-container-2">
-                        <p>
-                            Las siguientes competencias son las que adquirí conocimiento a partir de estudios formales e informales, los cuales mediante práctica mejore la comprensión y el desempeño del conocimiento.
-                        </p>
+                        <p>The following competencies are those that I acquired knowledge from formal and informal studies, which through practice improved my understanding and performance of knowledge.</p>
                     </div>
                 </div>
                 <div className="SkillsGrid">

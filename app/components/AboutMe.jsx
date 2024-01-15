@@ -7,7 +7,7 @@ const AboutMe = () => {
       <div className="section-divider"></div>
       <section className="about-me">
         <div className="main-container">
-          <h1 className="title">¡Hola!</h1>
+          <h1 className="title">¡Hello!</h1>
           <div className="grid-container">
             <Image
               src="/img/profile-icons/user-with-computer.jpg"
@@ -17,20 +17,20 @@ const AboutMe = () => {
             />
             <div>
               <p>
-                Mi nombre es James Guevara Gamboa, soy un desarrollador que
-                aprovecha cada día para expandir mis conocimientos y enfrentar
-                desafíos que ponen a prueba mis habilidades.
+                My name is James Guevara Gamboa, I am a developer that
+                every day to expand my knowledge and face challenges that test my skills.
+                challenges that test my skills.
               </p>
               <p>
-                Soy de Costa Rica, actualmente tengo 23 años y estoy en la
-                búsqueda de mi primera experiencia laboral. Mientras espero que
-                esta oportunidad llegue, me encuentro trabajando en mis
-                conocimientos y enfrentándome a desafíos que ponen a prueba mis
-                habilidades.
+                I am from Costa Rica, I am currently 23 years old and I am looking for my first work experience.
+                looking for my first work experience. While I wait for this
+                this opportunity comes, I find myself working on my knowledge and
+                knowledge and facing challenges that put my skills to the test.
+                skills.
               </p>
               <p>
                 <em>
-                  Como próxima meta, tengo aprender sobre desarrollo móvil.
+                  My next goal is to learn about mobile development.
                 </em>
               </p>
             </div>

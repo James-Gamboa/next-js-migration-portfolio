@@ -5,13 +5,13 @@ const MoreMe = () => {
     <>
       <section className="about">
         <div className="main-container">
-          <h1 className="title">Acerca de mi </h1>
+          <h1 className="title">About me</h1>
           <div className="flex-container-2">
             <p>
-              Comencé a estudiar programación en el año 2021. Desde entonces, he
-              completado diferentes cursos en plataformas de renombre como Udemy
-              y FreeCodeCamp. También he desarrollado proyectos, como una
-              Pokédex y una recreación de la página de Coca-Cola, entre otros.
+              I started studying programming in 2021. Since then, I have
+              completed different courses on renowned platforms such as Udemy and FreeCodeCamp.
+              and FreeCodeCamp. I have also developed projects, such as a
+              Pokédex and a recreation of the Coca-Cola website, among others.
             </p>
           </div>
         </div>

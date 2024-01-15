@@ -11,7 +11,7 @@ function ProjectCard({ id, title, image, description, link }) {
                     <h3 className="title">{title}</h3>
                     <p className="description">{description}</p>
                     <a href={link} target="_blank" rel="noopener noreferrer" className="button">
-                        Ir al Proyecto &ldquo;{title}&rdquo;
+                        Go to Project &ldquo;{title}&rdquo;
                     </a>
                 </div>
             </div>
