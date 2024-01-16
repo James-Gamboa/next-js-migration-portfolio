@@ -17,8 +17,6 @@ const MoreMe = () => {
         </div>
         <div className="section-divider"></div>
       </section>
-      <br />
-      <br />
     </>
   );
 };
