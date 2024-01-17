@@ -1,4 +1,4 @@
-import "../../public/css/styles.css";
+
 
 const MainFooter = () => {
     return (

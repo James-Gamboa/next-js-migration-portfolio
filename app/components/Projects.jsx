@@ -1,5 +1,5 @@
 import ProjectCard from "./ProjectCard"
-import "../../public/css/styles.css";
+
 
 import P1Img from "../../public../../public/img//projects/cocacola-page.png";
 import P2Img from "../../public/img//projects/pokedex-page.png";

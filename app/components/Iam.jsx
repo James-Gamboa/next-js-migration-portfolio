@@ -1,5 +1,5 @@
 import Image from "next/image";
-import "../../public/css/styles.css";
+
 
 const Iam = () => {
     return(
@@ -8,7 +8,7 @@ const Iam = () => {
         <div className="main-container">
             <h1 className="title">I Am</h1>
             <div className="aboutMeContainer">
-                <Image src="/img/profile-icons/working-computer.png"  width={25} height={500} alt="Programmer working on a computer"/>
+            <Image src="/img/profile-icons/working-computer.png" width={300} height={520} alt="Programmer working on a computer"/>
                 <ul>
                     <li>James Guevara Gamboa</li>
                     <li>I am from Costa Rica - Heredia </li>
