@@ -1,7 +1,5 @@
 import Image from "next/image";
 import PropTypes from "prop-types";
-
-
 function ProjectCard({ id, title, image, description, link }) {
     return (
         <>
