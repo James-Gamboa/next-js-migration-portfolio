@@ -12,7 +12,7 @@ const Iam = () => {
                     <li>James Guevara Gamboa</li>
                     <li>I am from Costa Rica - Heredia </li>
                     <li>Born November 8, 2000</li>
-                    <li className="floating"><a href="https://drive.google.com/file/d/1VUNftgruuZgUJU0qBIVsby72aXb-wCQT/view?usp=sharing" target={"_blank"}>CV</a></li>
+                    <li className="floating"><a href="https://drive.google.com/file/d/1HcIyCBmpT1dS9F17mlA-j4DoLEfSARTD/view?usp=sharing" target={"_blank"}>CV</a></li>
                 </ul>
             </div>
         </div>
