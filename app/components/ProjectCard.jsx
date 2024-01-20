@@ -1,5 +1,6 @@
 import Image from "next/image";
 import PropTypes from "prop-types";
+import Link from "next/link";
 function ProjectCard({ id, title, image, description, link }) {
     return (
         <>
@@ -8,9 +9,9 @@ function ProjectCard({ id, title, image, description, link }) {
                 <div className="card-content">
                     <h3 className="title">{title}</h3>
                     <p className="description">{description}</p>
-                    <a href={link} target="_blank" rel="noopener noreferrer" className="button">
+                    <Link href={link} target="_blank" rel="noopener noreferrer" className="button">
                         Go to Project &ldquo;{title}&rdquo;
-                    </a>
+                    </Link>
                 </div>
             </div>
         </>

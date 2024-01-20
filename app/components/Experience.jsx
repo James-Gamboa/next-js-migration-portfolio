@@ -1,14 +1,13 @@
 import Image from "next/image";
 
-const Experience = () => {
+function Experience() {
   return (
     <>
       <section className="i-am">
         <div className="main-container">
           <h1 className="title">Experience</h1>
           <div className="flex-container-2">
-            <Image className="empty" src="/img/icons/office.png"  width={384} 
-              height={384} alt="Office Icon With User" />
+            <Image className="empty" src="/img/icons/office.png"  width={384} height={384} alt="Office Icon With User" />
             <ul className="letter-small">
               <li>
                 <strong>

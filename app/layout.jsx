@@ -1,7 +1,7 @@
 import "../public/css/styles.css";
 
 export const metadata = {
-  title: "My Portfolio",
+  title: "James Guevara",
   description:
     "Welcome to my portfolio! Explore the projects and work I've done as a web developer. Discover my experience, skills, and passion for programming.",
 };

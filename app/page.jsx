@@ -5,16 +5,16 @@ import AboutMe from "./components/AboutMe"
 import MoreMe from "./components/MoreMe"
 import MainFooter from "./components/Footer"
 
-const HomePage = () => {
-    return(
-        <>
-        <Header />
-        <MainBanner/>
-        <AboutMe/>
-        <Iam/>
-        <MoreMe/>
-        <MainFooter/> 
-        </>
+function HomePage() {
+return(
+    <>
+    <Header />
+    <MainBanner/>
+    <AboutMe/>
+    <Iam/>
+    <MoreMe/>
+    <MainFooter/> 
+    </>
     )
 }
 

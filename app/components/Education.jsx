@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 
-const Education = () => {
+function Education()  {
     return (
         <>
         <section className="i-am">

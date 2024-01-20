@@ -1,4 +1,4 @@
-const MoreMe = () => {
+function MoreMe() {
   return (
     <>
       <section className="about">

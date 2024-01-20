@@ -7,7 +7,7 @@ import P4Img from "../../public/img//projects/news-homepage-page.jpg";
 import P5Img from "../../public/img//projects/conectaCuatro-page.png";
 import P6Img from "../../public/img//projects/loopstudios-page.png";
 import P7Img from "../../public/img//projects/events-site-page.png";
-import P8Img from "../../public/img//projects/calculadoraReact-page.png";
+import P8Img from "../../public/img//projects/landing-page-manage.png";
 import P9Img from "../../public/img//projects/contraluz-page.png";
 
 const projects = [
@@ -63,9 +63,9 @@ const projects = [
     {
         "id": 8,
         "image": P8Img,
-        "title": "Calculator" ,
-        "description": "Practical React Course from freeCodecamp React Projects",
-        "link": "https://voluble-squirrel-2c2897.netlify.app/"
+        "title": "Manage Landing Page" ,
+        "description": "Page created as practice in my knowledge in next js and tailwind",
+        "link": "https://landing-page-with-tailwind-iota.vercel.app/"
     },
     {
         "id": 9,

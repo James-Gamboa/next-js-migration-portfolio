@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const MainBanner = () => {
+function MainBanner() {
     return (
         <>
         <section className="main-section-banner">

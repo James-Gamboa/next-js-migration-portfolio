@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const Skills = () => {
+function Skills() {
     return (
         <>
             <section className="i-am">
@@ -23,6 +23,8 @@ const Skills = () => {
                     <Image width={400} height={200} src="/img/icons-language/drupal.png" alt="Drupal" />
                     <Image width={400} height={200} src="/img/icons-language/sass.png" alt="Sass" />
                     <Image width={400} height={200} src="/img/icons-language/shopify.png" alt="Shopify" />
+                    <Image width={400} height={150} src="/img/icons-language/Tailwind-Css.png" alt="Tailwind Css" />
+                    <Image width={400} height={150} src="/img/icons-language/GraphQL.png" alt="GraphQL" />
                 </div>
             </section>
         </>
