@@ -12,7 +12,7 @@ function Education()  {
                     <ul>
                         <li><strong>I have invested time and dedication in participating in several online courses</strong>
                             and training programs to acquire a solid set of technical skills in the field of Front End development. Some of the courses I have completed are:</li>
-                        <li><strong>&ldquo;Web design and development technician&rdquo; in Cetav: </strong>
+                        <li><strong>&ldquo;Web design and development technician&rdquo; in Centro de Tecnología y Artes Visuales (CETAV): </strong>
                         Through my technical background, I have acquired solid skills in web design and programming. I have explored various programming languages, content management systems and workflows, developing competencies in web design and programming with a focus on functionality, accessibility and usability based on web standards.</li>
                         <li><strong>&ldquo;JavaScript Algorithms and Data Structures&rdquo; in freeCodeCamp : </strong>
                             This course has provided me with a deep understanding of fundamental algorithms and data structures, which is crucial for efficient and scalable web application development.</li>
